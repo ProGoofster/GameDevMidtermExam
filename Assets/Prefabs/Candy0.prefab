@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4759555356563370410}
   - component: {fileID: 4038891119732996810}
+  - component: {fileID: 5861134025034044383}
+  - component: {fileID: 5798603630375898546}
   m_Layer: 0
   m_Name: Candy0
   m_TagString: Untagged
@@ -87,3 +89,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &5861134025034044383
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883031920259283698}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.3, y: 1.3}
+    newSize: {x: 1.3, y: 1.3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.65, y: 0.19}
+      - {x: 0.53999996, y: 0.41}
+      - {x: 0.39999998, y: 0.53}
+      - {x: 0.19, y: 0.65}
+      - {x: -0.14999999, y: 0.65}
+      - {x: -0.24, y: 0.63}
+      - {x: -0.39999998, y: 0.53999996}
+      - {x: -0.58, y: 0.34}
+      - {x: -0.62, y: 0.22999999}
+      - {x: -0.65, y: 0.14999999}
+      - {x: -0.65, y: -0.17}
+      - {x: -0.63, y: -0.24}
+      - {x: -0.53, y: -0.39999998}
+      - {x: -0.34, y: -0.58}
+      - {x: -0.17999999, y: -0.65}
+      - {x: 0.21, y: -0.65}
+      - {x: 0.42, y: -0.55}
+      - {x: 0.65, y: -0.24}
+  m_UseDelaunayMesh: 0
+--- !u!50 &5798603630375898546
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883031920259283698}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
