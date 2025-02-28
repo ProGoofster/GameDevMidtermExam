@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7354715611008346136}
   - component: {fileID: 6625995043603764792}
   - component: {fileID: 1881146397312482383}
+  - component: {fileID: -7357740439713824424}
   m_Layer: 0
   m_Name: Claw
   m_TagString: Untagged
@@ -114,4 +115,23 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
+--- !u!114 &-7357740439713824424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725462451030890588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4da2131b989584429828c8bd0d0267e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
+  mousePosG: {x: 0, y: 0, z: 0}
+  newPosition: {x: 0, y: 0}
+  balls:
+  - {fileID: 1883031920259283698, guid: 606d0160c05a64a6894b51b27f257d0d, type: 3}
+  - {fileID: 676399703724488472, guid: b4d040ec40365416aa1fe05379769abb, type: 3}
+  - {fileID: 4510785947577606609, guid: 3ed55ac6aeca24aea8eb507263ed46ff, type: 3}
