@@ -9,6 +9,7 @@ public class ClawBehavior : MonoBehaviour
     public Vector2 newPosition;
     public static float cooldownRate = 0.5f;
     public static float cooldown;
+    public static int ballCount;
     Camera cam;
 
     public GameObject[] balls;
@@ -16,6 +17,7 @@ public class ClawBehavior : MonoBehaviour
     void Start() {
         body = GetComponent<Rigidbody2D>();
         cam = Camera.main;
+        ballCount = 0;
     }
     void FixedUpdate() {
         mousePosG = cam.ScreenToWorldPoint(Input.mousePosition);
@@ -33,5 +35,6 @@ public class ClawBehavior : MonoBehaviour
     void SpawnBall() {
         Instantiate(balls[Random.Range(0,balls.Length)], this.gameObject.transform.position, Quaternion.identity);
         cooldown = cooldownRate;
+        ballCount++;
     }
 }
